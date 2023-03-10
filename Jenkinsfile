@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git_checckout') {
             steps {
-                git branch: 'main', url: 'https://github.com/lijitijil/Project.git'
+                git branch: 'main', url: 'https://github.com/lijitijil/KubernetesHtmlBuild.git'
             }
         }
         stage('Docker_build') {
